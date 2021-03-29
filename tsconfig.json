@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es2015",
+        "module": "es2015", // 指定使用的模块标准
+        //"outDir": "./dist", // 编译后js文件存放目录
+        "allowJs": false, // 是否对js文件进行编译 默认false
+        "checkJs": false, // 是否检查js文件是否符合语法规范 默认false
+        "removeComments": true, // 是否移除注释 默认false
+        "strict": false, // 开启所有严格检查
+        "alwaysStrict": true, // 始终以严格模式检查每个模块，并且在编译后的结果文件中加入"use strict" 默认false
+        "strictNullChecks": true, // 严格的检查空值
+        "noImplicitAny": true, // 不允许隐式的any
+        "noEmitOnError": true,
+    }
+}
